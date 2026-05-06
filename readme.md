@@ -45,6 +45,17 @@ Ffontes utilizadas como base para este NotebookLM. Elas representam conhecimento
 
 ## 🔧 Engenharia de Prompts e "Cicatrizes"
 
+Os prompts utilizados neste projeto estão centralizados na pasta prompts, na raiz do repositório.
+
+### Lista de Prompts:
+  1. Prompt 1 - Guia de estudos progressivo de Arquitetura Limpa
+     Descrição: orienta o NotebookLM a gerar um estudo didático por tópicos, com exemplos em TypeScript usando API de cadastro de usuários, incluindo comparação entre implementação incorreta e correta.
+     Arquivo: [studyGuide.md](https://github.com/RenanVieiraDev/miniguia-estudos-notebooklm-arquitetura-limpa/blob/main/prompts/studyGuide.md)
+
+
+*Evolução das Consultas*
+
+As próximas consultas serão adicionadas gradualmente nesta seção, conforme a evolução dos estudos e o aprofundamento prático dos conteúdos.
 
 ---
 
