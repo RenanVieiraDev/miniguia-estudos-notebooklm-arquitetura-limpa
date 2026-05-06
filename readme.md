@@ -43,7 +43,7 @@ Ffontes utilizadas como base para este NotebookLM. Elas representam conhecimento
 
 ---
 
-## 🔧 Engenharia de Prompts e "Cicatrizes"
+## Engenharia de Prompts e "Cicatrizes"
 
 Os prompts utilizados neste projeto estão centralizados na pasta prompts, na raiz do repositório.
 
@@ -59,6 +59,36 @@ As próximas consultas serão adicionadas gradualmente nesta seção, conforme a
 
 ---
 
+## Miniguia de Estudo
+ 
+ Esta entrega consolida os aprendizados iniciais de Arquitetura Limpa com foco prático em TypeScript.
+ 
+### Resumo dos conceitos
+ - Arquitetura Limpa: separa regras de negócio de detalhes técnicos.
+ - Camadas: dependências apontam para o núcleo.
+ - Entidades e Casos de Uso: concentram regra de negócio.
+ - Adapters, Controllers e Repositórios: conectam o núcleo ao mundo externo sem acoplamento.
+ - DIP e Testes: abstrações e injeção de dependência aumentam testabilidade e evolução segura.
+ - Erros comuns: misturar domínio com framework e banco.
+
+### Glossário essencial
+ - Entidade: regra de negócio central.
+ - Caso de Uso: ação da aplicação.
+ - DTO: transporte de dados entre camadas.
+ - Repositório: contrato de acesso a dados.
+ - DIP: dependência em abstrações.
+ - TDD: desenvolvimento guiado por testes.
+
+### Prompts reutilizáveis
+
+ - Explicar conceito com exemplo incorreto e correto.
+ - Comparar implementação acoplada vs limpa.
+ - Diagnosticar violações de arquitetura em código.
+ - Montar plano de estudo progressivo.
+ - Criar checklist de qualidade arquitetural.
+ - Mostrar teste de caso de uso sem banco real.
+  
+---
 *Criado como parte do Bootcamp IA + DIO - Estudo de Arquitetura Limpa com NotebookLM*  
 *Data: Maio 2026*  
 *Status: Em Evolução Contínua*
